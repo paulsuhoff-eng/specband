@@ -32,6 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru" className={cn("dark font-sans", geist.variable)}>
+      <head>
+  <meta name="yandex-verification" content="ff36cbfc6c572c34" />
+</head>
       <body className="antialiased min-h-screen bg-background flex flex-col">
         <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
