@@ -25,7 +25,10 @@ export function RepertoireSection({ links }: RepertoireSectionProps) {
         </p>
       </div>
 
-      <div className="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-2">
+      <div
+        id="riders"
+        className="mx-auto mt-12 scroll-mt-24 grid max-w-4xl gap-6 sm:grid-cols-2"
+      >
         {links.map((link) => {
           const Icon = link.icon;
           return (

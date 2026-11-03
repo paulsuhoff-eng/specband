@@ -17,11 +17,12 @@ export type ContactItem = {
   label: string;
   value: string;
   href?: string;
+  compact?: boolean;
 };
 
 export const contactPhones: ContactItem[] = [
   {
-    label: "Звоните или пишите",
+    label: "звоните или пишите в любой мессенджер",
     value: "+7 (912) 633-84-86",
     href: "tel:+79126338486",
   },
@@ -35,9 +36,9 @@ export const contactMessengers: ContactItem[] = [
   },
   {
     label: "Мессенджер MAX",
-    value:
-      "max.ru/u/f9LHodD0cOJGckJIOaRLPFxxmNwuRUxkqqvLmjZbGVBot6IGqY1_7fu_hBM",
+    value: "написать в МАХ",
     href: "https://max.ru/u/f9LHodD0cOJGckJIOaRLPFxxmNwuRUxkqqvLmjZbGVBot6IGqY1_7fu_hBM",
+    compact: true,
   },
 ];
 
@@ -310,7 +311,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Промо 2026 ч.1",
     event: "Промо",
     cover:
-      "https://sun9-13.vkuserphoto.ru/impg/RKYsXIeCMCjbM7qSVQX4QcB1PCLfWIZ8JH-tig/mawxQBaygfk.jpg?size=1280x720&quality=95&sign=23b51cbbbd8067d4c9e251e8a26a7aa3&type=video_thumb",
+      "https://sun9-9.vkuserphoto.ru/impg/RKYsXIeCMCjbM7qSVQX4QcB1PCLfWIZ8JH-tig/mawxQBaygfk.jpg?size=1280x720&quality=95&sign=23b51cbbbd8067d4c9e251e8a26a7aa3&c_uniq_tag=iqQXduxkEIVa4wv5CJLixNLTcS4QbB8LZIKS8Eep3Gk&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-1.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239226&hash=78d6dac7c251e730&hd=4&autoplay=1",
@@ -320,7 +321,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Промо 2026 ч.2",
     event: "Промо",
     cover:
-      "https://sun9-77.vkuserphoto.ru/impg/XnhJGmRC-lM0TPzZ67_vU6Adq5aSggl_BgTx9A/Xt2jmBbJib8.jpg?size=1280x720&quality=95&sign=24df2e9248dcdc8acb4f028d753714f9&type=video_thumb",
+      "https://sun9-77.vkuserphoto.ru/impg/XnhJGmRC-lM0TPzZ67_vU6Adq5aSggl_BgTx9A/Xt2jmBbJib8.jpg?size=1280x720&quality=95&sign=24df2e9248dcdc8acb4f028d753714f9&c_uniq_tag=KRYxWTlwY5ZGY3MBOeisoW7CRXAhXUB31sLs2hChC_0&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-2.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239224&hash=004ae4612cf0ad72&hd=4&autoplay=1",
@@ -340,7 +341,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Промо 2026 ч.3",
     event: "Промо",
     cover:
-      "https://sun9-80.vkuserphoto.ru/impg/o5fXB3m3M28v4viYFHmKYhSBP1PVmSmoeE2Ukg/y-Ab7W9Wmco.jpg?size=940x1672&quality=95&sign=62332067fd45a9fb4bf0655ca25fa16a&type=video_thumb",
+      "https://sun9-80.vkuserphoto.ru/impg/o5fXB3m3M28v4viYFHmKYhSBP1PVmSmoeE2Ukg/y-Ab7W9Wmco.jpg?size=940x1672&quality=95&sign=62332067fd45a9fb4bf0655ca25fa16a&c_uniq_tag=dC0nU5OuBOsD22y6Rm0vkKUlk6WFEIxKG7XdrssRWPs&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-4.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239231&hash=fa3a29ca2b891ec6&hd=4&autoplay=1",
@@ -350,7 +351,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Знакомство со Специями",
     event: "Промо",
     cover:
-      "https://sun9-13.vkuserphoto.ru/impg/UVgopwcIZRmPO78PgUTIlLjoFLNxEJTn3x691A/quMUq4mJwms.jpg?size=1152x2048&quality=95&sign=f55b6f515180521cebe1cd1b1d8e5f57&type=video_thumb",
+      "https://sun9-68.vkuserphoto.ru/impg/UVgopwcIZRmPO78PgUTIlLjoFLNxEJTn3x691A/quMUq4mJwms.jpg?size=1152x2048&quality=95&sign=f55b6f515180521cebe1cd1b1d8e5f57&c_uniq_tag=zqmBL_B1srIhneOgNnc9AiRACfB5nQYcR5FaX7C79Yk&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-5.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239254&hash=78681bc083ac8328&hd=4&autoplay=1",
@@ -360,7 +361,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Свадебный драйв",
     event: "Промо",
     cover:
-      "https://sun9-43.vkuserphoto.ru/impg/tuOwtAMOC89ut7BI9ZhWiJd10DRg71yfPxDbOw/zMKRNcmthv4.jpg?size=876x1558&quality=95&sign=76cc5ea3d85e9e7e3f10d0bf9c553e2b&type=video_thumb",
+      "https://sun9-46.vkuserphoto.ru/impg/tuOwtAMOC89ut7BI9ZhWiJd10DRg71yfPxDbOw/zMKRNcmthv4.jpg?size=876x1558&quality=95&sign=76cc5ea3d85e9e7e3f10d0bf9c553e2b&c_uniq_tag=UnQFCWskV9uuAfIhjehfUgPpBtq18nGqtGVlyu3wWcM&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-6.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239250&hash=9b330366021c259a&hd=4&autoplay=1",
@@ -370,7 +371,7 @@ export const galleryVideos: GalleryVideo[] = [
     title: "Корпоративный лайв",
     event: "Лайв",
     cover:
-      "https://sun9-59.vkuserphoto.ru/impg/GN0xI2NiGhfz64Hs6MqDAFbIpYIhOuVQ76nXfQ/N7m343t-H0c.jpg?quality=90&proxy=1&sign=bd0db1e918930758a34d9afd2a29464b&type=video_thumb",
+      "https://sun9-8.vkuserphoto.ru/impg/GN0xI2NiGhfz64Hs6MqDAFbIpYIhOuVQ76nXfQ/N7m343t-H0c.jpg?size=1152x2048&quality=95&sign=6aae21eb6cd70548e8fee998b1fcf0cc&c_uniq_tag=KbT7C7RowJ_Y8Tiy6DUQiE3U1p1Xurs0DHameT1JMcY&type=video_thumb",
     coverFallback: "/assets/gallery/video-cover-7.jpg",
     embedUrl:
       "https://vkvideo.ru/video_ext.php?oid=-106158274&id=456239256&hash=0f9c729be138b379&hd=4&autoplay=1",
