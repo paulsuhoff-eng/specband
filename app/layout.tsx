@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   description: `Лучшие каверы на Урале: феерия звука, драйва и эмоций для вашего праздника.`,
   verification: {
     yandex: "ff36cbfc6c572c34",
-    google: "ВСТАВЬ_СЮДА_СВОЙ_КОД_ОТ_GSC",
+    google: "wnXlebGammgPXrdpOAOBqbzj_3Bi9oUBOp5RZL_h1KA",
   },
 };
 
